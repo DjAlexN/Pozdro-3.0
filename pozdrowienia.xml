@@ -151,4 +151,12 @@ HTML;
 			<replacecount>1</replacecount>
 		</operation>
 	</file>
+	<file name="engine/modules/main.php">
+		<operation action="after">
+			<searchcode><![CDATA[$tpl->load_template ( 'main.tpl' );]]></searchcode>
+			<replacecode><![CDATA[$tpl->set('{pozdro}', $show);]]></replacecode>
+			<searchcount>1</searchcount>
+			<replacecount>1</replacecount>
+		</operation>
+	</file>
 </dleplugin>
