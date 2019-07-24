@@ -1,0 +1,70 @@
+<?php
+/***********************************************************
+* Translate: 	 Dj_AlexN Graphic Group
+* Version: 		 3.0
+* Version DLE: 	 13.0
+* Version PHP:	 7.0 and 7.2
+* Dev team: 	 Dj_AlexN Graphic Group 
+* Name Script:	 Moduł Pozdrowień 7.0 by Dj_AlexN Graphic
+***********************************************************/ 
+
+$langs1 = array (
+
+'charset'				=>	"utf-8",
+'wysiwyg_language'		=>  "pl",
+
+//Header 
+'info'					=> "Informacje",
+'settings'				=> "Ustawienia",
+'licence'				=> "Licencja",
+'pozdro'				=> "Pozdrowienia",
+//Header End
+
+//Settings
+'title'					=> "Tytuł",
+'title1'				=> "Podaj Tytuł dla podstrony pozdrowień",
+'desc'					=> "Opis",
+'desc1'					=> "Podaj opis dla podstrony pozdrowień",
+'limit' 				=> "Limit znaków",
+'limit1'				=> "Podaj limit znaków dla treści pozdrowień",
+'online' 				=> "Włącz Moduł",
+'online1' 				=> "Wybierz czy moduł ma być włączony na stronie.",
+'accept'				=> "Akceptuj",
+'del'					=> "Usuń",
+'active'				=> "Aktywne",
+'contents'				=> "Treść",
+'date'					=> "Data",
+'user'					=> "Użytkownik",
+'id'					=> "ID",
+'status'				=> "Status",
+//Settings End
+
+// Waring Info
+'status_offline'		=> "Administrator serwisu wyłączył ten moduł!",
+'status_offline1'		=> "Moduł Pozdrowień jest wyłączony!",
+'send'					=> "Wyślij Pozdrowienie",
+'back'					=> "Cofnij",
+'error_1'				=> "Wypełnij poprawnie pola",
+'error_2'				=> "Dodano do bazy. Oczekuje na zaakceptowanie.",
+'error_3'				=> "Wpisz treść!",
+'error_4'				=> "Za długa treść!",
+'error_5'				=> "Dostęp tylko dla zalogowanych !",
+// Waring Info End
+
+// Licence
+'licence_rules'			=> "<b>Umowa Licencyjna</b>",
+'licence_rules1'		=> "<br /><b>1.</b> Moduł Pozdrowień jest Darmowy dlatego użytkownik może w pełni korzystać z modułu za darmo!<br /><b>2.</b> Zabrania się rozpowszechniania modułu bez zgody Autora.<br /><b>3.</b> Zabrania się próby deszyfracji plików modułu i edycję ich bez zgody Autora.<br /><b>4.</b> W przypadku wykrycia złamania w/w zasad użytkownik traci pełne wsparcie z strony Autora dla tego modułu<br /><br /><span style='float:right;text-align:right;'><b>Z poważaniem</b><br /><b>Dj_AlexN Graphic</b><br />https://dj-alexn.pl <br />Support, Grafika, Tłumaczenia, Creator WWW</span>",
+// Licence End
+
+// Information
+'info_version'			=> "Wersja Modułu",
+'info_author'			=> "Autor Modułu",
+'info_author1'			=> "Dj_AlexN Graphic",
+'info_kont'				=> "Kontakt z twórcą modułu",
+'info_kon'				=> "<b>E-Mail:</b> djalexn.graphic@gmail.com<br /><b>E-Mail:</b> admin@dj-alexn.pl<br /> <b>Tel:</b> 697-381-415<br /><b>FB:</b> <a href='https://www.facebook.com/djalexn.graphic' target='_blank'>https://www.facebook.com/djalexn.graphic</a><br /><b>WebSite:</b> <a href='https://dj-alexn.pl' target='_blank'>http://dj-alexn.pl</a>",
+// Information END
+);
+
+
+@setlocale(LC_ALL, array("pl_PL.UTF8"));
+?>
